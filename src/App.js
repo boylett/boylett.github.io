@@ -46,9 +46,9 @@ function App() {
           text: 'github.com/boylett'
         },
         {
-          href: 'https://linkedin.com/in/ryanboylett',
+          href: 'https://linkedin.com/in/boylett',
           icon: 'fab fa-linkedin',
-          text: 'linkedin.com/in/ryanboylett'
+          text: 'linkedin.com/in/boylett'
         },
       ],
     },
