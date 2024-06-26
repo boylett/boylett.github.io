@@ -38,11 +38,6 @@ function App() {
       thumbnail: false,
       links: [
         {
-          href: 'https://codepen.io/boylett',
-          icon: 'fab fa-codepen',
-          text: 'codepen.io/boylett'
-        },
-        {
           href: 'https://github.com/boylett#',
           icon: 'fab fa-github-alt',
           text: 'github.com/boylett'
