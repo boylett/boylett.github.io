@@ -1,15 +1,15 @@
 {
-  "short_name": "boylett.dev",
-  "name": "boylett.dev – Full stack developer based out of Gloucestershire, UK",
+  "short_name": "Boylett Software",
+  "name": "Boylett Software – Full stack developer based in the southwest",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "apple-touch-icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#00D6AD",
-  "background_color": "#383D4B"
+  "theme_color": "#33228F",
+  "background_color": "#FFFFFF"
 }
