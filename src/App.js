@@ -2,33 +2,35 @@ import './App.css';
 import Block from './components/Block';
 import Logo from './components/Logo';
 
-function App() {
+function App () {
   const content = [
     {
       title: {
         prefix: 'I speak',
         words: [
-          "Apache",
-          "Bash",
-          "CoffeeScript",
-          "CSS",
-          "HTML",
-          "JavaScript",
-          "Laravel",
-          "MongoDB",
-          "MySQL",
-          "Next.js",
-          "Nginx",
-          "Node.js",
-          "PHP",
-          "PostgreSQL",
-          "Python",
-          "React",
-          "SASS",
-          "Slim",
-          "Stylus",
-          "Symfony",
-          "TypeScript",
+          'Apache',
+          'Bash',
+          'CoffeeScript',
+          'CSS',
+          'HTML',
+          'JavaScript',
+          'Laravel',
+          'MongoDB',
+          'MySQL',
+          'Next.js',
+          'Nginx',
+          'Node.js',
+          'PHP',
+          'PostgreSQL',
+          'Python',
+          'React',
+          'Remix',
+          'SASS',
+          'SCSS',
+          'Slim',
+          'Stylus',
+          'Symfony',
+          'TypeScript',
         ],
       },
       content: [
@@ -57,7 +59,7 @@ function App() {
         <Logo />
       </header>
       <section className="app__content">
-        { content.map((blockContent, index) => <Block title={blockContent.title} content={blockContent.content} thumbnail={blockContent.thumbnail} links={blockContent.links} key={index} /> ) }
+        { content.map((blockContent, index) => <Block title={ blockContent.title } content={ blockContent.content } thumbnail={ blockContent.thumbnail } links={ blockContent.links } key={ index } />) }
       </section>
     </main>
   );
