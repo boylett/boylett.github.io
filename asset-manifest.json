@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd083023.css",
-    "main.js": "/static/js/main.df4ce219.js",
+    "main.css": "/static/css/main.30c26d3d.css",
+    "main.js": "/static/js/main.6a1af207.js",
     "static/media/boylett-logo.svg": "/static/media/boylett-logo.b1655f748566222f7082c97017363a22.svg",
     "index.html": "/index.html",
-    "main.cd083023.css.map": "/static/css/main.cd083023.css.map",
-    "main.df4ce219.js.map": "/static/js/main.df4ce219.js.map"
+    "main.30c26d3d.css.map": "/static/css/main.30c26d3d.css.map",
+    "main.6a1af207.js.map": "/static/js/main.6a1af207.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd083023.css",
-    "static/js/main.df4ce219.js"
+    "static/css/main.30c26d3d.css",
+    "static/js/main.6a1af207.js"
   ]
 }
