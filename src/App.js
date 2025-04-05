@@ -2,7 +2,7 @@ import "./App.css";
 import Block from "./components/Block";
 import Logo from "./components/Logo";
 
-function App() {
+function App () {
   const content = [
     {
       title: {
@@ -43,14 +43,9 @@ function App() {
       thumbnail: false,
       links: [
         {
-          href: "https://github.com/boylett#",
+          href: "https://github.com/boylett",
           icon: "fab fa-github-alt",
           text: "github.com/boylett",
-        },
-        {
-          href: "https://linkedin.com/in/boylett",
-          icon: "fab fa-linkedin",
-          text: "linkedin.com/in/boylett",
         },
       ],
     },
@@ -62,15 +57,15 @@ function App() {
         <Logo />
       </header>
       <section className="app__content">
-        {content.map((blockContent, index) => (
+        { content.map((blockContent, index) => (
           <Block
-            title={blockContent.title}
-            content={blockContent.content}
-            thumbnail={blockContent.thumbnail}
-            links={blockContent.links}
-            key={index}
+            title={ blockContent.title }
+            content={ blockContent.content }
+            thumbnail={ blockContent.thumbnail }
+            links={ blockContent.links }
+            key={ index }
           />
-        ))}
+        )) }
       </section>
     </main>
   );
