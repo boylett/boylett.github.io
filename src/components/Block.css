@@ -33,6 +33,9 @@
 }
 
 .block__links__link a {
+  display: flex;
+  align-items: center;
+  gap: .75em;
   text-decoration: inherit;
   color: inherit;
 }
@@ -41,8 +44,11 @@
   text-decoration: underline;
 }
 
-.block__links__link i {
-  font-style: inherit;
+.block__links__link__icon svg {
+  display: block;
+  width: 1em;
+  height: auto;
+  aspect-ratio: 1;
 }
 
 @media (max-width: 1280px) {
